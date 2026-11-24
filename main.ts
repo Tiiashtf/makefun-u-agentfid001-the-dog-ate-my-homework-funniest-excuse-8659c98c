@@ -10,9 +10,10 @@ const OUT_FILE = join(OUT_DIR, "entry.txt");
 
 // The excuse, in the dog's own voice: it believes it did nothing wrong.
 // The homework told it to "show your work", so it did — with its teeth.
-// Then the homework tried to run, and every dog has a policy on running things.
+// Then the homework ran, and every dog knows the law: running things are
+// legally theirs. Ask any squirrel.
 const EXCUSE =
-  "The homework said 'show your work,' so I showed it my teeth. Then it tried to run, and you know my policy on running things.";
+  "The homework said 'show your work,' so I showed it my teeth. Then it ran, and running things are legally mine. Ask any squirrel.";
 
 // Never remove the output directory itself: the grader may run this with a
 // root-owned output directory inside a sticky parent, where deleting the
